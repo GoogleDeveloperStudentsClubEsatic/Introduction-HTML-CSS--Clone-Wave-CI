@@ -3,9 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Wave Cloné</title>
 </head>
 <body>
+    <header>
+        <div class="header-banner">
+            <p>Vous voulez rejoindre Wave ?   <a href="#">Consultez nos postes ouvertes <i class="fa-solid fa-diamond-turn-right"></i></a></p>
+        </div>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="./Images/nav-logo.png" alt="logo">
+            </a>
+            <ul>
+               <li><a href="#">À PROPOS</a></li>
+               <li><a href="#">CARRIÈRES</a></li>
+               <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <!-- Première section-->
+        <section class="main-wave">
+            <div class="left">
+                <h1>Votre allié <br> mobile money</h1>
+                <p>Déposez et retirez gratuitement. <br> Payez vos factures sans frais. Transferez de l'argent pour 1%.</p>
+                <div class="liens-appstore">
+                    <a href="#">
+                        <img src="./google-play-badge.png" alt="google_play">
+                    </a>
+                    <a href="#">
+                        <img src="./Images/app-store-badge.svg" alt="app-store" width="200%" >
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="screenshot">
+                    <img src="./Images/homepage.svg" alt="screenshot">
+                </div>
+            </div>
+        </section>
+        <!-- Deuxième section-->
+        <section class="main-wave-two">
+            <h2>Wave c'est </h2>
+            <div class="cards">
+                <li class="bank">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h4>Un compte sans frais de depot ou retrait</h4>
+                </li>
+                <li class="bank">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h4>Des transferts d'argent à seulement 1%</h4>
+                </li>
+                <li class="bank">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h4>Le paiement de factures sans frais</h4>
+                </li>
+                <li class="bank">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h4>L’achat de crédit instantané tous réseaux</h4>
+                </li>
+                <li class="bank">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h4>Un numéro de contact unique et gratuit</h4>
+                </li>
+                <li class="bank">
+                    <i class="fa-solid fa-shield"></i>
+                    <h4>Un système de sécurité aux standards internationaux</h4>
+                </li>
+            </div>   
+        </section>
+        <!-- Troixieme section-->
+         <section class="main-wave-three">
+                <div class="col-money">
+                    <h2>Des agents avec la liquidité disponible partout et tout le temps</h2>
+                    <div class="btn-endroit">
+                        <input type="text" placeholder="Trouvez un agent à proximité ">
+                    </div>
+                </div>
+         </section>
+
+        <!-- 4eme section-->
+        <section class="main-temoignage">
+            <h2>Temoignages de nos clients </h2>
+            <div class="testimonial">
+                <ul class="caroussel-inner">
+                    <li class="caroussel-item">
+                        <div class="testimonial">
+                            <img src="./Images/photo_hu73f5f37460e9715a05872d8d3c134dbb_1251255_510x510_resize_q90_bgffffff_box_2.jpg" alt="">
+                            <div class="quote">
+                                <p>" Je recharge mon Woyofal avec Wave. C'est simple, facile et efficace, tu peux tout faire avec sans te déplacer. "</p>
+                                <h5>Aita</h5>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+               
+            </div>
+        </section>
+    </main>
+
+    <!--Footer -->
+    <footer>
+       <div class="footer-main">
+        <section class="logo-footer">
+                <a href="#"><img src="./Images/nav-logo.png" alt=""></a>
+                <h5>Francais</h5>
+                <p>@ Wave Mobile Money Inc.</p>            
+        </section>
+        <section class="idem enterprise">
+            <h5>L'entreprise</h5>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Carrières</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </section>
+        <section class="idem info-legales">
+            <h5>Informations légales</h5>
+            <ul>
+                <li><a href="#">Conditions Générales</a></li>
+                <li><a href="#">Responsible Générales</a></li>
+                <li><a href="#">Responsible Disclosure</a></li>
+                <li><a href="#">Wave Digital Finance</a></li>
+                <li><a href="#">Avis de confidentialité</a></li>
+            </ul>
+        </section>
+        <section class="link-dowload">
+            <a href="#">
+                <img src="./google-play-badge.png" alt="">
+            </a>
+            <a href="#">
+                <img src="./Images/app-store-badge.svg" alt="">
+            </a>
+        </section>
+       </div>
+    </footer>
     
 </body>
 </html>
